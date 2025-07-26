@@ -1,12 +1,12 @@
 {
-    "name": "vortechron/laravel-spark-stripe",
+    "name": "vortechron/laravel-stripe",
     "description": "Laravel Spark provides scaffolding for Laravel SaaS applications.",
     "keywords": ["laravel", "stripe", "billing", "scaffolding", "saas"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Vortechron",
+            "email": "vortechron@gmail.com"
         }
     ],
     "require": {
