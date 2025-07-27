@@ -128,8 +128,8 @@ return [
                 [
                     'name' => 'Standard',
                     'short_description' => 'This is a short, human friendly description of the plan.',
-                    'monthly_id' => 'price_id',
-                    'yearly_id' => 'price_id',
+                    'monthly_id' => env('STRIPE_MONTHLY_PLAN_ID', 'price_12345'),
+                    'yearly_id' => env('STRIPE_YEARLY_PLAN_ID', 'price_12345'),
                     'features' => [
                         'Feature 1',
                         'Feature 2',
